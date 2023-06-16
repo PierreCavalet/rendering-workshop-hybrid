@@ -14,4 +14,7 @@ const routeRules = routes.reduce(
 
 export default defineNuxtConfig({
   routeRules,
+  experimental: {
+    payloadExtraction: true,
+  },
 });
